@@ -5,6 +5,8 @@
     --second-text-color: #757575;
     --third-text-color: #FFFFFF;
     --active-color: #2196F3 ;
+    --footer-background: #2F303A;
+    --footer-contact-color: #ffffff99;
 }
 
 body{
@@ -15,8 +17,7 @@ body{
 /* !index.html */
 .logo-first-side {
     font-family: var(--logo-font);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
@@ -25,8 +26,7 @@ body{
 
 .logo-header-side {
     font-family: var(--logo-font);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
@@ -34,18 +34,15 @@ body{
 }
 
 .site-nav-list {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--text-color);
 
 }
 
 .site-address-list {
     font-weight: 500;
-    font-style: normal;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -63,21 +60,22 @@ body{
 .site-address-list:focus {
     color: var(--active-color);    
 }
+.banner {
+    background: #2F303A;
+}
 
 .banner-title {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color:/*var(--third-text-color)*/ ;
+    color:var(--third-text-color);
 }
 
 .banner-button {
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     display: flex;
@@ -86,12 +84,135 @@ body{
     letter-spacing: 0.06em;
     color: var(--third-text-color);
     background-color: var(--active-color);
+}
+
+.features-list-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
+
+.features-list-text{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+
+}
+
+.img-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--text-color);
+
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.team-member-profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--second-text-color);
+}
+
+.footer {
+    background-color: var(--footer-background);
+}
+
+.logo-footer-side {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--third-text-color);
+}
+
+.footer-address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--third-text-color);
+
+}
+
+.footer-address-link:hover,
+.footer-address-link:focus {
+    color: var(--active-color);
+}
+
+.footer-contact-link {
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: var(--footer-contact-color);
+
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--active-color);
+}
+
+
+
+
+
 /* !portfolio.html*/
 
 .button:hover,
 .button:focus {
     color: #FFFFFF ;
     background-color: var(--active-color);
+}
+
+.gallery-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--text-color);
+
+}
+
+.gallery-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+
+
 }
