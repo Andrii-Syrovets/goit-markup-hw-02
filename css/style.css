@@ -13,14 +13,23 @@
 body{
     font-family: var(--text-font);
     color: var(--text-color);
+    background-color: var(--third-text-color);
+}
+ul {
+    list-style: none;
 }
 
 /* !index.html */
+
+.logo-link{
+
+    text-decoration: none;
+}
 .logo-first-side {
     font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--active-color);
 }
@@ -29,32 +38,41 @@ body{
     font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
 
-.site-nav-list {
+.site-nav-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.43;
     letter-spacing: 0.02em;
+    text-decoration: none;
 
+}
+.site-nav-link.current {
+    color: var(--active-color);
 }
 
 .site-address-list {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.43;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
+    text-decoration: none;
 
 }
 
-.site-nav-list:hover,
-.site-nav-list:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
     color: var(--active-color);    
 
+}
+
+.header-address{
+    font-style: normal;
 }
 
 .site-address-list:hover,
@@ -68,7 +86,7 @@ body{
 .banner-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.37;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -78,7 +96,7 @@ body{
 .banner-button {
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
@@ -90,7 +108,7 @@ body{
 .features-list-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -99,7 +117,7 @@ body{
 .features-list-text{
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
 
@@ -108,7 +126,7 @@ body{
 .img-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -116,10 +134,14 @@ body{
 
 }
 
+.team {
+    background-color: var(--buuton-portfolio-background) ;
+}
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
@@ -129,7 +151,7 @@ body{
 .team-member {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
@@ -138,22 +160,30 @@ body{
 .team-member-profession {
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
 
     color: var(--second-text-color);
 }
+ /*Footer*/
 
+ .footer-logo-link {
+     text-decoration: none;
+ }
 .footer {
     background-color: var(--banner-footer-background);
+}
+
+.footer-address {
+    font-style: normal;
 }
 
 .logo-footer-side {
     font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
 }
@@ -161,9 +191,10 @@ body{
 .footer-address-link {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
+    text-decoration: none;
 
 }
 
@@ -176,9 +207,10 @@ body{
     
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--footer-contact-color);
+text-decoration: none;
 
 }
 
@@ -206,7 +238,7 @@ color: var(--footer-contact-color);
 .gallery-list-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: var(--text-color);
 
@@ -215,7 +247,7 @@ color: var(--footer-contact-color);
 .gallery-list-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
 
