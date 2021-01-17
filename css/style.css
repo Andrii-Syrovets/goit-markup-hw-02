@@ -19,6 +19,7 @@ ul {
     list-style: none;
 }
 
+
 /* !index.html */
 
 .logo-link{
@@ -49,6 +50,7 @@ ul {
     line-height: 1.43;
     letter-spacing: 0.02em;
     text-decoration: none;
+    color: var(--text-color);
 
 }
 .site-nav-link.current {
