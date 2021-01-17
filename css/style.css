@@ -22,6 +22,7 @@ ul {
 
 /* !index.html */
 
+/*Logo*/
 .logo-link{
 
     text-decoration: none;
@@ -43,7 +44,7 @@ ul {
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
-
+/*Navigation*/
 .site-nav-link {
     font-weight: 500;
     font-size: 14px;
@@ -73,6 +74,7 @@ ul {
 
 }
 
+/*Addres header*/
 .header-address{
     font-style: normal;
 }
@@ -81,6 +83,8 @@ ul {
 .site-address-list:focus {
     color: var(--active-color);    
 }
+
+/*Banner*/
 .banner {
     background: var(--banner-footer-background);
 }
@@ -107,6 +111,7 @@ ul {
     background-color: var(--active-color);
 }
 
+/*Features*/
 .features-list-title {
     font-weight: 700;
     font-size: 14px;
@@ -136,6 +141,7 @@ ul {
 
 }
 
+/*Team*/
 .team {
     background-color: var(--buuton-portfolio-background) ;
 }
@@ -168,7 +174,7 @@ ul {
 
     color: var(--second-text-color);
 }
- /*Footer*/
+ /*Footer */
 
  .footer-logo-link {
      text-decoration: none;
@@ -233,7 +239,7 @@ text-decoration: none;
 
 .button:hover,
 .button:focus {
-    color: #FFFFFF ;
+    color: var(--third-text-color) ;
     background-color: var(--active-color);
 }
 
